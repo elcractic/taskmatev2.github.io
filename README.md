@@ -52,20 +52,16 @@ Particles.js	Dynamic backgrounds
 # 🚀 Getting Started
 
 # Clone the repo
-```git clone https://github.com/yourusername/taskmate-ai.git
-```
+```git clone https://github.com/yourusername/taskmate-ai.git```
 
 # Navigate to project
-```cd taskmate-ai
-```
+```cd taskmate-ai```
 
 # Install live server (if needed)
-```npm install -g live-server
-```
+```npm install -g live-server```
 
 # Run project
-```live-server --port=3000
-```
+```live-server --port=3000```
 # 🎮 Key Features
 
 ```javascript
