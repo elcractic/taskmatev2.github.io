@@ -1,21 +1,28 @@
 # 🚀 TaskMate AI - Smart Productivity Assistant
 
-![TaskMate AI Banner](https://i.imgur.com/JQZ1h0j.png)
+<div align="center">
+  <img src="https://i.imgur.com/JQZ1h0j.png" alt="TaskMate Banner" width="800"/>
+  
+  [![GitHub Stars](https://img.shields.io/github/stars/yourusername/taskmate-ai?style=social)](https://github.com/yourusername/taskmate-ai/stargazers)
+  [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
+</div>
 
-> AI-powered productivity meets human service connections
-
-## ✨ Features Preview
+## 🌟 Features
 
 ```javascript
-// AI Service Connection Example
-const findProvider = (service, location) => {
-  const aiRecommendation = analyzeNeeds(service, location);
-  return matchProviders(aiRecommendation);
-};
+// AI-Powered Service Connection
+class ServiceConnect {
+  constructor() {
+    this.aiEngine = new TaskMateAI();
+  }
 
-// Connect with a math tutor nearby
-const tutor = findProvider('math-tutor', {
-  coordinates: getUserLocation(),
-  availability: 'urgent',
-  budget: '$30-50/hr'
-});
+  findProvider(serviceType, filters) {
+    const recommendations = this.aiEngine.analyze({
+      service: serviceType,
+      location: filters.location,
+      budget: filters.budget,
+      urgency: filters.urgency
+    });
+    return this.matchProviders(recommendations);
+  }
+}
