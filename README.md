@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://ibb.co/4RQCQnp2"><img src="https://i.ibb.co/CKr4r3Q6/Screenshot-2025-05-17-213448.png" alt="Screenshot-2025-05-17-213448" border="0"></a>
-  <img src="https://i.ibb.co/CKr4r3Q6/Screenshot-2025-05-17-213448.png" alt="TaskMate Banner" width="800"/>
+ 
   
   [![GitHub Stars](https://img.shields.io/github/stars/yourusername/taskmate-ai?style=social)](https://github.com/yourusername/taskmate-ai/stargazers) 
   [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
