@@ -25,3 +25,40 @@ function findBestMatch(serviceType, userCriteria) {
     .sort((a,b) => b.rating - a.rating)
     [0];
 }
+```
+
+🛠 Tech Stack
+Frontend
+Technology	Use Case
+--------------------------------------
+HTML5	Semantic structure
+--------------------------------------
+CSS3	Modern animations & transitions
+--------------------------------------
+JavaScript ES6+	Interactive components
+--------------------------------------
+Particles.js	Dynamic backgrounds
+--------------------------------------
+
+# Design
+- Glass morphism UI
+
+- Purple/pink gradient theme
+
+- Responsive layouts
+
+- Micro-interactions
+
+# 🚀 Getting Started
+
+# Clone the repo
+```git clone https://github.com/yourusername/taskmate-ai.git```
+
+# Navigate to project
+```cd taskmate-ai```
+
+# Install live server (if needed)
+```npm install -g live-server```
+
+# Run project
+```live-server --port=3000```
