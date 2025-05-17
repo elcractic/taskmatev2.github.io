@@ -52,13 +52,61 @@ Particles.js	Dynamic backgrounds
 # 🚀 Getting Started
 
 # Clone the repo
-```git clone https://github.com/yourusername/taskmate-ai.git```
+```git clone https://github.com/yourusername/taskmate-ai.git
+```
 
 # Navigate to project
-```cd taskmate-ai```
+```cd taskmate-ai
+```
 
 # Install live server (if needed)
-```npm install -g live-server```
+```npm install -g live-server
+```
 
 # Run project
-```live-server --port=3000```
+```live-server --port=3000
+```
+# 🎮 Key Features
+
+```javascript
+// Example: Service connection flow
+TaskMate.connect('plumber', {
+  location: getUserLocation(),
+  problem: 'leaking pipe',
+  urgency: 'high'
+}).then(provider => {
+  startChatSession(provider);
+  scheduleAppointment(provider);
+});
+```
+
+# ✨ Highlights
+
+- Real-time provider matching
+
+- AI-powered recommendations
+
+- Secure in-app messaging
+
+- Rating & review system
+
+# 🤝 Contributing
+
+- Fork the Project
+
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+- Push to the Branch (git push origin feature/AmazingFeature)
+
+- Open a Pull Request
+
+```📜 Credits
+Special thanks to:
+
+@samirdevs for development guidance
+
+Font Awesome for icons
+
+Coding communities for support```
